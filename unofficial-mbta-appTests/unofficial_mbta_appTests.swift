@@ -1,14 +1,13 @@
 //
-//  mbta_unofficialTests.swift
-//  mbta-unofficialTests
+//  unofficial_mbta_appTests.swift
+//  unofficial-mbta-appTests
 //
-//  Created by Beatrix Klebe on 2023-05-11.
+//  Created by Beatrix Klebe on 2023-05-12.
 //
 
 import XCTest
-@testable import mbta_unofficial
 
-final class mbta_unofficialTests: XCTestCase {
+final class unofficial_mbta_appTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -28,7 +27,7 @@ final class mbta_unofficialTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }

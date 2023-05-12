@@ -1,13 +1,13 @@
 //
-//  mbta_unofficialUITestsLaunchTests.swift
-//  mbta-unofficialUITests
+//  unofficial_mbta_appUITestsLaunchTests.swift
+//  unofficial-mbta-appUITests
 //
-//  Created by Beatrix Klebe on 2023-05-11.
+//  Created by Beatrix Klebe on 2023-05-12.
 //
 
 import XCTest
 
-final class mbta_unofficialUITestsLaunchTests: XCTestCase {
+final class unofficial_mbta_appUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

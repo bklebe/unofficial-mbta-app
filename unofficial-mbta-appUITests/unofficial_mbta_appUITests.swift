@@ -1,13 +1,13 @@
 //
-//  mbta_unofficialUITests.swift
-//  mbta-unofficialUITests
+//  unofficial_mbta_appUITests.swift
+//  unofficial-mbta-appUITests
 //
-//  Created by Beatrix Klebe on 2023-05-11.
+//  Created by Beatrix Klebe on 2023-05-12.
 //
 
 import XCTest
 
-final class mbta_unofficialUITests: XCTestCase {
+final class unofficial_mbta_appUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
