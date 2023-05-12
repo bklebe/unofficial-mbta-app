@@ -10,12 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Rectangle()
+                .fill(Color("MBTA Blue"))
+                .ignoresSafeArea()
+                .safeAreaInset(edge: .top, alignment: .center, spacing: 0) {
+                    WebView(url: URL(string: "https://www.mbta.com")!)
+                }
+
         }
-        .padding()
     }
 }
 

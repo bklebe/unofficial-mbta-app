@@ -14,6 +14,7 @@
 		600ABCA52A0DAE2500B60D3F /* mbta_unofficialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600ABCA42A0DAE2500B60D3F /* mbta_unofficialTests.swift */; };
 		600ABCAF2A0DAE2500B60D3F /* mbta_unofficialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600ABCAE2A0DAE2500B60D3F /* mbta_unofficialUITests.swift */; };
 		600ABCB12A0DAE2500B60D3F /* mbta_unofficialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600ABCB02A0DAE2500B60D3F /* mbta_unofficialUITestsLaunchTests.swift */; };
+		600ABCBE2A0DAE4000B60D3F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600ABCBD2A0DAE4000B60D3F /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		600ABCAA2A0DAE2500B60D3F /* mbta-unofficialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mbta-unofficialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		600ABCAE2A0DAE2500B60D3F /* mbta_unofficialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbta_unofficialUITests.swift; sourceTree = "<group>"; };
 		600ABCB02A0DAE2500B60D3F /* mbta_unofficialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbta_unofficialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		600ABCBD2A0DAE4000B60D3F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				600ABC952A0DAE2400B60D3F /* ContentView.swift */,
 				600ABC972A0DAE2500B60D3F /* Assets.xcassets */,
 				600ABC992A0DAE2500B60D3F /* Preview Content */,
+				600ABCBD2A0DAE4000B60D3F /* WebView.swift */,
 			);
 			path = "mbta-unofficial";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				600ABCBE2A0DAE4000B60D3F /* WebView.swift in Sources */,
 				600ABC962A0DAE2400B60D3F /* ContentView.swift in Sources */,
 				600ABC942A0DAE2400B60D3F /* mbta_unofficialApp.swift in Sources */,
 			);
@@ -412,7 +416,7 @@
 		600ABCB52A0DAE2500B60D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -441,7 +445,7 @@
 		600ABCB62A0DAE2500B60D3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
