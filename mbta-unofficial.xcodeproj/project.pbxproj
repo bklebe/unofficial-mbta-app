@@ -15,6 +15,7 @@
 		600ABCAF2A0DAE2500B60D3F /* mbta_unofficialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600ABCAE2A0DAE2500B60D3F /* mbta_unofficialUITests.swift */; };
 		600ABCB12A0DAE2500B60D3F /* mbta_unofficialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600ABCB02A0DAE2500B60D3F /* mbta_unofficialUITestsLaunchTests.swift */; };
 		600ABCBE2A0DAE4000B60D3F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600ABCBD2A0DAE4000B60D3F /* WebView.swift */; };
+		60D8758A2A0EBBF90005C9F5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 60D875892A0EBBF90005C9F5 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		600ABCAE2A0DAE2500B60D3F /* mbta_unofficialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbta_unofficialUITests.swift; sourceTree = "<group>"; };
 		600ABCB02A0DAE2500B60D3F /* mbta_unofficialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbta_unofficialUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		600ABCBD2A0DAE4000B60D3F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		60D875892A0EBBF90005C9F5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		600ABC872A0DAE2400B60D3F = {
 			isa = PBXGroup;
 			children = (
+				60D875892A0EBBF90005C9F5 /* LICENSE */,
 				600ABC922A0DAE2400B60D3F /* mbta-unofficial */,
 				600ABCA32A0DAE2500B60D3F /* mbta-unofficialTests */,
 				600ABCAD2A0DAE2500B60D3F /* mbta-unofficialUITests */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D8758A2A0EBBF90005C9F5 /* LICENSE in Resources */,
 				600ABC9B2A0DAE2500B60D3F /* Preview Assets.xcassets in Resources */,
 				600ABC982A0DAE2500B60D3F /* Assets.xcassets in Resources */,
 			);
